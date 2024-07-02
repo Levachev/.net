@@ -11,11 +11,11 @@ class Simulator {
 
     private (Deck, Deck) separeteFullDaeck(Deck deck){
         int deckSize = deck.getSize();
-        List<Card> ilonCards = new List<Card>();
-        List<Card> markCards = new List<Card>();
+        Card[] ilonCards = new Card[deckSize/2];
+        Card[] markCards = new Card[deckSize/2];
         for(int i=0;i<deckSize/2;i++){
-            ilonCards.Add(deck.getCard(i));
-            markCards.Add(deck.getCard(deckSize/2+i));
+            ilonCards[i] = deck.getCard(i);
+            markCards[i] = deck.getCard(deckSize/2+i);
         }
         Deck ilonDeck = new Deck(ilonCards);
         Deck markDeck = new Deck(markCards);
@@ -25,15 +25,15 @@ class Simulator {
 
     private void printDeck(List<Card> deck){
         foreach(Card card in deck){
-            Console.WriteLine(card.GetCardValue()+" "+card.GetSuit());
+            Console.WriteLine(card.Number+" "+card.Color);
         }
     }
 
     public int simulate(string ilonStrategyName, string markStrategyName){
-        Deck deck = Generator.generateDeck();
+        Deck deck = new Deck();
 
-        Strategy ilonStrategy = StrategyFactory.createForName(ilonStrategyName);
-        Strategy markStrategy = StrategyFactory.createForName(markStrategyName);
+        ICardPickStrategy ilonStrategy = StrategyFactory.createForName(ilonStrategyName);
+        ICardPickStrategy markStrategy = StrategyFactory.createForName(markStrategyName);
 
         Person ilon = new Person(ilonStrategy);
         Person mark = new Person(markStrategy);

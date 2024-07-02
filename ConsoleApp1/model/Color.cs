@@ -1,6 +1,0 @@
-
-
-enum Color {
-    red,
-    black
-}

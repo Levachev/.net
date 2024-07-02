@@ -11,16 +11,4 @@ static class Generator {
             deck.swap(k, n);
         }  
     }
-    
-    public static Deck generateDeck(){
-        List<Card> deck = new List<Card>();
-        foreach(Suit suit in Enum.GetValues(typeof(Suit))){
-            foreach(CardValue value in Enum.GetValues(typeof(CardValue))){
-                Card tmp = new Card(suit, value);
-                deck.Add(tmp);
-            }
-        }
-
-        return new Deck(deck);
-    }
 }
