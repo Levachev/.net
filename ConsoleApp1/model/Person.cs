@@ -2,21 +2,17 @@
 
 class Person {
     private Deck deck;
-    private Strategy strategy;
-    public Person(Strategy strategy){
+    private ICardPickStrategy strategy;
+    public Person(ICardPickStrategy strategy){
         this.strategy = strategy;
     }
 
     public int move(){
-        return strategy.move(deck);
+        return strategy.Pick(deck.deck);
     }
 
     public void updateDeck(Deck deck){
         this.deck = deck;
-    }
-
-    public void updateStrategy(int opMove){
-        strategy.updateStrategy(opMove);
     }
 
     public Card getCard(int position){

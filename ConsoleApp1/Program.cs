@@ -5,7 +5,7 @@ using System;
 class Application  {
     static void Main(){
         Simulator simulator = new Simulator(1000000);
-        int succesCounter = simulator.simulate("simple", "random");
+        int succesCounter = simulator.simulate("firstRed", "random");
         Console.WriteLine("succes case number is "+succesCounter);
     }
 }

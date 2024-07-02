@@ -1,23 +1,20 @@
 using System;
 
-class Card {
-    private Suit suit;
-    private CardValue value;
+public class Card {
+    public int Number { get; set; }
+    public CardColor Color { get; set; }
 
-    public Card(Suit suit, CardValue value){
-        this.suit = suit;
-        this.value = value;
+    public Card(int num, CardColor col)
+    {
+        Color = col;
+        Number = num;
     }
 
-    public Color GetColor(){
-        return SuitUtil.getColor(suit);
-    }
+    public Card() {}
 
-    public Suit GetSuit(){
-        return suit;
-    }
-
-    public CardValue GetCardValue(){
-        return value;
+    public override string ToString()
+    {
+        var s = "(" + Number + " " + Color + ")";
+        return s;
     }
 }

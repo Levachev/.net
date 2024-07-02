@@ -1,21 +1,18 @@
 
-class MyFirstRedStrategy : Strategy {
+class MyFirstRedStrategy : ICardPickStrategy{
 
-    int Strategy.move(Deck deck){
-        return findFirstRed(deck);
+    int ICardPickStrategy.Pick(Card[] cards){
+        return findFirstRed(cards);
     }
 
-    public int findFirstRed(Deck deck){
+    private int findFirstRed(Card[] cards){
         int ret = 0;
-        for(int i=0;i<deck.getSize();i++){
-            if(deck.getCard(i).GetColor() == Color.red){
+        for(int i=0;i<cards.Length;i++){
+            if(cards[i].Color == CardColor.Red){
                 ret = i+1;
                 break;
             }
         }
         return ret;
-    }
-
-    void Strategy.updateStrategy(int opMove){
     }
 }
