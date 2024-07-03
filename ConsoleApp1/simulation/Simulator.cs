@@ -1,12 +1,19 @@
 
-
+using Microsoft.Extensions.Hosting;
 using System.Runtime.InteropServices;
 
-class Simulator {
+public class Simulator : IHostedService
+{
+    private Shuffler shuffler;
+    private Derby derby;
+
     private int iterationCapasity;
 
-    public Simulator(int iterationCapasity){
+    public Simulator(int iterationCapasity, Shuffler shuffler, Derby derby)
+    {
         this.iterationCapasity = iterationCapasity;
+        this.shuffler = shuffler;
+        this.derby = derby;
     }
 
     private (Deck, Deck) separeteFullDaeck(Deck deck){
@@ -29,32 +36,35 @@ class Simulator {
         }
     }
 
-    public int simulate(string ilonStrategyName, string markStrategyName){
+    public int simulate(){
         Deck deck = new Deck();
-
-        ICardPickStrategy ilonStrategy = StrategyFactory.createForName(ilonStrategyName);
-        ICardPickStrategy markStrategy = StrategyFactory.createForName(markStrategyName);
-
-        Person ilon = new Person(ilonStrategy);
-        Person mark = new Person(markStrategy);
 
         int succesCounter = 0;
 
-        Derby derby = new Derby(ilon, mark);
+        shuffler.shuffleDeck(deck);
 
-        for(int i=0;i<iterationCapasity;i++){
-            Generator.shuffleDeck(deck);
+        for (int i=0;i<iterationCapasity;i++){
 
             (Deck ilonDeck, Deck markDeck) = separeteFullDaeck(deck);
 
-            ilon.updateDeck(ilonDeck);
-            mark.updateDeck(markDeck);
+            derby.updateDecks(ilonDeck, markDeck);
             
             if(derby.singleExperiment()){
                 succesCounter++;
             }
         }
-
+        Console.WriteLine("succes case number is " + succesCounter);
         return succesCounter;
+    }
+
+    public Task StartAsync(CancellationToken cancellationToken)
+    {
+        simulate();
+        return Task.CompletedTask;
+    }
+
+    public Task StopAsync(CancellationToken cancellationToken)
+    {
+        return Task.CompletedTask;
     }
 }

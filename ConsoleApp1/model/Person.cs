@@ -1,6 +1,6 @@
 
 
-class Person {
+public class Person {
     private Deck deck;
     private ICardPickStrategy strategy;
     public Person(ICardPickStrategy strategy){

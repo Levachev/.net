@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "strategy/1.0.0": {
+        "dependencies": {
+          "MicrosoftVisualStudioQualityToolsUnitTestFramework": "1.0.2",
+          "card": "1.0.0"
+        },
+        "runtime": {
+          "strategy.dll": {}
+        }
+      },
+      "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.2": {
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "12.0.21005.1"
+          }
+        }
+      },
+      "card/1.0.0": {
+        "dependencies": {
+          "MicrosoftVisualStudioQualityToolsUnitTestFramework": "1.0.2"
+        },
+        "runtime": {
+          "card.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6M2aehas5QVpuxk93lt5/7F6Yx103hFqdWIzrJBFl2KQ/4iIF1Fz2OLreeQukFuJBZhjRoFGehpX3hDB/j/NUg==",
+      "path": "microsoftvisualstudioqualitytoolsunittestframework/1.0.2",
+      "hashPath": "microsoftvisualstudioqualitytoolsunittestframework.1.0.2.nupkg.sha512"
+    },
+    "card/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
