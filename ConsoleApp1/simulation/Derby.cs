@@ -19,7 +19,7 @@ public class Derby {
         //Console.WriteLine("\n"+ilonCard.GetColor());
         //Console.WriteLine(markCard.GetColor()+"\n");
 
-        return person1Card.Color == person2Card.Color;
+        return person1Card.color == person2Card.color;
     }
 
     public void updateDecks(Deck person1Deck, Deck person2Deck)

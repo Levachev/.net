@@ -3401,7 +3401,7 @@
       "projectName": "AppTests",
       "projectPath": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\AppTests.csproj",
       "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roman\\Source\\Repos\\.net\\AppTests\\obj\\",
+      "outputPath": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

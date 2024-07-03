@@ -11,8 +11,8 @@
     <PackageReference Include="MicrosoftVisualStudioQualityToolsUnitTestFramework" Version="1.0.2" />
   </ItemGroup>
 
-    <ItemGroup>
-	    <ProjectReference Include="..\card\card.csproj" />
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\card\card.csproj" />
+  </ItemGroup>
 
 </Project>

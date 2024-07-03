@@ -1,20 +1,20 @@
 using System;
 
 public class Card {
-    public int Number { get; set; }
-    public CardColor Color { get; set; }
+    public int number { get; set; }
+    public CardColor color { get; set; }
 
     public Card(int num, CardColor col)
     {
-        Color = col;
-        Number = num;
+        color = col;
+        number = num;
     }
 
     public Card() {}
 
     public override string ToString()
     {
-        var s = "(" + Number + " " + Color + ")";
+        var s = "(" + number + " " + color + ")";
         return s;
     }
 }

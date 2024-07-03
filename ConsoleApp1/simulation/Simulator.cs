@@ -32,7 +32,7 @@ public class Simulator : IHostedService
 
     private void printDeck(List<Card> deck){
         foreach(Card card in deck){
-            Console.WriteLine(card.Number+" "+card.Color);
+            Console.WriteLine(card.number+" "+card.color);
         }
     }
 

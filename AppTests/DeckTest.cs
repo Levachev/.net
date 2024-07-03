@@ -14,7 +14,7 @@ namespace AppTests
 
             foreach(Card card in deck.deck)
             {
-                if (card.Color == CardColor.Red)
+                if (card.color == CardColor.Red)
                 {
                     redCadrNumber++;
                 }
