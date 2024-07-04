@@ -10,6 +10,7 @@ namespace Db
         public Repo(IDbContextFactory<Context> dbContextFactory)
         {
             context = dbContextFactory.CreateDbContext();
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
         }
 

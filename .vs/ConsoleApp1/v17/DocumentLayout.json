@@ -3,68 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|c:\\users\\roman\\source\\repos\\.net\\card\\card.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|solutionrelative:card\\card.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|c:\\users\\roman\\source\\repos\\.net\\apptests\\decktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|solutionrelative:apptests\\decktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\simulation\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simulation\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|c:\\users\\roman\\source\\repos\\.net\\strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|solutionrelative:strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|c:\\users\\roman\\source\\repos\\.net\\strategy\\strategy\\icardpickstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|solutionrelative:strategy\\strategy\\icardpickstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|c:\\users\\roman\\source\\repos\\.net\\card\\card\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|solutionrelative:card\\card\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|c:\\users\\roman\\source\\repos\\.net\\card\\card\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|solutionrelative:card\\card\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|c:\\users\\roman\\source\\repos\\.net\\apptests\\simulatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|solutionrelative:apptests\\simulatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|c:\\users\\roman\\source\\repos\\.net\\apptests\\strategytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B89B4-FC60-4F78-9DA7-57653322856B}|AppTests\\AppTests.csproj|solutionrelative:apptests\\strategytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\util\\shuffler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\util\\shuffler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|c:\\users\\roman\\source\\repos\\.net\\strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|solutionrelative:strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,214 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Card.cs",
-              "RelativeDocumentMoniker": "card\\card\\Card.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Card.cs",
-              "RelativeToolTip": "card\\card\\Card.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T17:42:17.771Z",
+              "DocumentIndex": 0,
+              "Title": "Db",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Db.csproj",
+              "RelativeDocumentMoniker": "Db\\Db.csproj",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Db.csproj",
+              "RelativeToolTip": "Db\\Db.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-04T18:11:29.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Deck.cs",
-              "RelativeDocumentMoniker": "card\\card\\Deck.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Deck.cs",
-              "RelativeToolTip": "card\\card\\Deck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:43:10.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Repo.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
               "RelativeDocumentMoniker": "Db\\Repo.cs",
               "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
               "RelativeToolTip": "Db\\Repo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAiAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:07:00.023Z",
+              "WhenOpened": "2024-07-04T18:12:28.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
-              "RelativeDocumentMoniker": "Db\\Entities.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
-              "RelativeToolTip": "Db\\Entities.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
+              "RelativeDocumentMoniker": "Db\\Context.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
+              "RelativeToolTip": "Db\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:53:44.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICardPickStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\ICardPickStrategy.cs",
-              "RelativeDocumentMoniker": "strategy\\strategy\\ICardPickStrategy.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\ICardPickStrategy.cs",
-              "RelativeToolTip": "strategy\\strategy\\ICardPickStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:08:48.43Z",
+              "WhenOpened": "2024-07-04T18:21:44.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
+              "RelativeDocumentMoniker": "Db\\Entities.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
+              "RelativeToolTip": "Db\\Entities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:50:54.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBkAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:49:48.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MyFirstRedStrategy.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\MyFirstRedStrategy.cs",
               "RelativeDocumentMoniker": "strategy\\strategy\\MyFirstRedStrategy.cs",
               "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\MyFirstRedStrategy.cs",
               "RelativeToolTip": "strategy\\strategy\\MyFirstRedStrategy.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAhwAoAAAAZAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAIA1wAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T11:11:52.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Derby.cs",
               "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Derby.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\simulation\\Derby.cs",
               "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Derby.cs",
               "RelativeToolTip": "ConsoleApp1\\simulation\\Derby.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBUAAAAxAAAA",
+              "ViewState": "AQIAACcAAACgZmZmZmYiwA8AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T17:59:27.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Simulator.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Simulator.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\simulation\\Simulator.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Simulator.cs",
-              "RelativeToolTip": "ConsoleApp1\\simulation\\Simulator.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIAwwCIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T04:04:59.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
-              "RelativeDocumentMoniker": "Db\\Context.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
-              "RelativeToolTip": "Db\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:32:52.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SimulatorTest.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\SimulatorTest.cs",
-              "RelativeDocumentMoniker": "AppTests\\SimulatorTest.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\SimulatorTest.cs",
-              "RelativeToolTip": "AppTests\\SimulatorTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:47:15.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeckTest.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\DeckTest.cs",
-              "RelativeDocumentMoniker": "AppTests\\DeckTest.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\DeckTest.cs",
-              "RelativeToolTip": "AppTests\\DeckTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T12:00:10.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StrategyTest.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\StrategyTest.cs",
-              "RelativeDocumentMoniker": "AppTests\\StrategyTest.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\AppTests\\StrategyTest.cs",
-              "RelativeToolTip": "AppTests\\StrategyTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:08:37.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "card",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\card\\card.csproj",
-              "RelativeDocumentMoniker": "card\\card.csproj",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\card\\card.csproj",
-              "RelativeToolTip": "card\\card.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-03T08:33:20.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Shuffler.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\util\\Shuffler.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\util\\Shuffler.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\util\\Shuffler.cs",
-              "RelativeToolTip": "ConsoleApp1\\util\\Shuffler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T05:06:04.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\model\\Person.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\model\\Person.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\model\\Person.cs",
-              "RelativeToolTip": "ConsoleApp1\\model\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:05:40.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:39:39.668Z",
               "EditorCaption": ""
             }
           ]

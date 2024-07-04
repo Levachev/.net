@@ -7,7 +7,7 @@ public class Person {
         this.strategy = strategy;
     }
 
-    public int move(){
+    public virtual int move(){
         return strategy.Pick(deck.deck);
     }
 
@@ -15,7 +15,7 @@ public class Person {
         this.deck = deck;
     }
 
-    public Card getCard(int position){
+    public virtual Card getCard(int position){
         return deck.getCard(position);
     }
 }

@@ -1,15 +1,28 @@
 
 
+using System.Net.Http.Headers;
+
 public class Derby {
+    private Shuffler shuffler;
     private Person person1;
     private Person person2;
-
-    public Derby(Person person1, Person person2){
+    private Deck deck = new Deck();
+    public Derby(Shuffler shuffler, Person person1, Person person2){
+        this.shuffler = shuffler;
         this.person1 = person1;
         this.person2 = person2;
     }
 
-    public virtual bool singleExperiment(){
+    public bool singleExperiment(Deck deck)
+    {
+        shuffler.shuffleDeck(deck);
+
+        (Deck person1Deck, Deck person2Deck) = separeteFullDaeck(deck);
+
+
+        person1.updateDeck(person1Deck);
+        person2.updateDeck(person2Deck);
+
         int person1Move = person1.move();
         int person2Move = person2.move();
 
@@ -22,9 +35,19 @@ public class Derby {
         return person1Card.color == person2Card.color;
     }
 
-    public void updateDecks(Deck person1Deck, Deck person2Deck)
+    private (Deck, Deck) separeteFullDaeck(Deck deck)
     {
-        person1.updateDeck(person1Deck);
-        person2.updateDeck(person2Deck);
+        int deckSize = deck.getSize();
+        Card[] ilonCards = new Card[deckSize / 2];
+        Card[] markCards = new Card[deckSize / 2];
+        for (int i = 0; i < deckSize / 2; i++)
+        {
+            ilonCards[i] = deck.getCard(i);
+            markCards[i] = deck.getCard(deckSize / 2 + i);
+        }
+        Deck ilonDeck = new Deck(ilonCards);
+        Deck markDeck = new Deck(markCards);
+
+        return (ilonDeck, markDeck);
     }
 }

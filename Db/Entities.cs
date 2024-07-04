@@ -7,20 +7,21 @@ namespace Db
     public class DeckTable
     {
         [Key]
-        public int id;
-        public List<CardTable> cards;
+        public int id { get; set; }
+
+        public List<CardTable> cards { get; set; }
     }
 
     [Table("card")]
     public class CardTable
     {
         [Key]
-        public int id;
-        public int number;
-        public String color;
+        public int id { get; set; }
+        public int number { get; set; }
+        public String color { get; set; }
 
         [ForeignKey("deck")]
-        public int deckId;
-        public DeckTable deck;
+        public int deckId { get; set; }
+        public DeckTable deck { get; set; }
     }
 }

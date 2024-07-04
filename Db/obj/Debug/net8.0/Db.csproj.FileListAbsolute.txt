@@ -17,3 +17,5 @@ C:\Users\roman\source\repos\.net\Db\obj\Debug\net8.0\Db.dll
 C:\Users\roman\source\repos\.net\Db\obj\Debug\net8.0\refint\Db.dll
 C:\Users\roman\source\repos\.net\Db\obj\Debug\net8.0\Db.pdb
 C:\Users\roman\source\repos\.net\Db\obj\Debug\net8.0\ref\Db.dll
+C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\Db.runtimeconfig.json
+C:\Users\roman\source\repos\.net\Db\obj\Debug\net8.0\Db.genruntimeconfig.cache
