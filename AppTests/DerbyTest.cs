@@ -8,8 +8,8 @@ namespace AppTests
     public class DerbyTest
     {
         private Mock<Shuffler> shufflerMock = new Mock<Shuffler>();
-        private Mock<Person> elonMock = new Mock<Person>(It.IsAny<RandomStrategy>());
-        private Mock<Person> markMock = new Mock<Person>(It.IsAny<MyFirstRedStrategy>());
+        private Mock<Player> elonMock = new Mock<Player>(It.IsAny<RandomStrategy>());
+        private Mock<Player> markMock = new Mock<Player>(It.IsAny<MyFirstRedStrategy>());
 
         [Test]
         public void TestSimulatorCallShuffler()

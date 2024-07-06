@@ -4,10 +4,10 @@ using System.Net.Http.Headers;
 
 public class Derby {
     private Shuffler shuffler;
-    private Person person1;
-    private Person person2;
+    private Player person1;
+    private Player person2;
     private Deck deck = new Deck();
-    public Derby(Shuffler shuffler, Person person1, Person person2){
+    public Derby(Shuffler shuffler, Player person1, Player person2){
         this.shuffler = shuffler;
         this.person1 = person1;
         this.person2 = person2;

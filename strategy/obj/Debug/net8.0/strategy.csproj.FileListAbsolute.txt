@@ -6,9 +6,7 @@ C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\strategy.sourcelink.j
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\card.deps.json
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\card.runtimeconfig.json
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\card.exe
-C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\strategy.exe
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\strategy.deps.json
-C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\strategy.runtimeconfig.json
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\strategy.dll
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\strategy.pdb
 C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\card.dll
@@ -18,6 +16,4 @@ C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\strategy.csproj.Up2Da
 C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\strategy.dll
 C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\refint\strategy.dll
 C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\strategy.pdb
-C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\strategy.genruntimeconfig.cache
 C:\Users\roman\Source\Repos\.net\strategy\obj\Debug\net8.0\ref\strategy.dll
-C:\Users\roman\Source\Repos\.net\strategy\bin\Debug\net8.0\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

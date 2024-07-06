@@ -2,18 +2,21 @@
 using Microsoft.Extensions.Hosting;
 using System.Runtime.InteropServices;
 using Db;
+using Gods;
 
 public class Simulator : IHostedService
 {
     private Derby derby;
     private int iterationCapasity;
     private IRepo repo;
+    private God god;
 
-    public Simulator(int iterationCapasity, Derby derby, IRepo repo)
+    public Simulator(int iterationCapasity, Derby derby, IRepo repo, God god)
     {
         this.iterationCapasity = iterationCapasity;
         this.derby = derby;
         this.repo = repo;
+        this.god = god;
     }
 
     public int simulate(){
@@ -39,13 +42,32 @@ public class Simulator : IHostedService
         return succesCounter;
     }
 
+    public async Task<int> simulateWeb()
+    {
+        int succesCounter = 0;
+
+        var decks = repo.getDecks();
+        foreach (Deck deck in decks)
+        {
+            if (await god.singleExperiment(deck))
+            {
+                succesCounter++;
+            }
+        }
+
+        Console.WriteLine("succes case number is " + succesCounter);
+        return succesCounter;
+    }
+
     public Task StartAsync(CancellationToken cancellationToken)
     {
-        for (int i=0;i<100;i++){
+        for (int i=0;i<10;i++){
             repo.insertDeck(new Deck());
         }
 
-        simulate();
+        Console.WriteLine("after add decks");
+
+        int result = simulateWeb().Result;
         return Task.CompletedTask;
     }
 

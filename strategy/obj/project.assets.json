@@ -48,7 +48,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MicrosoftVisualStudioQualityToolsUnitTestFramework >= 1.0.2",
       "card >= 1.0.0"
     ]
   },
@@ -105,12 +104,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "MicrosoftVisualStudioQualityToolsUnitTestFramework": {
-            "target": "Package",
-            "version": "[1.0.2, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      },
+      "card/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MicrosoftVisualStudioQualityToolsUnitTestFramework": "1.0.2"
+        },
+        "compile": {
+          "bin/placeholder/card.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/card.dll": {}
+        }
+      },
+      "strategy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "card": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/strategy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.2": {
+      "sha512": "6M2aehas5QVpuxk93lt5/7F6Yx103hFqdWIzrJBFl2KQ/4iIF1Fz2OLreeQukFuJBZhjRoFGehpX3hDB/j/NUg==",
+      "type": "package",
+      "path": "microsoftvisualstudioqualitytoolsunittestframework/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll",
+        "lib/net45/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll",
+        "microsoftvisualstudioqualitytoolsunittestframework.1.0.2.nupkg.sha512",
+        "microsoftvisualstudioqualitytoolsunittestframework.nuspec"
+      ]
+    },
+    "card/1.0.0": {
+      "type": "project",
+      "path": "../card/card.csproj",
+      "msbuildProject": "../card/card.csproj"
+    },
+    "strategy/1.0.0": {
+      "type": "project",
+      "path": "../strategy/strategy.csproj",
+      "msbuildProject": "../strategy/strategy.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "card >= 1.0.0",
+      "strategy >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\roman\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\roman\\source\\repos\\.net\\Player\\Player.csproj",
+      "projectName": "Player",
+      "projectPath": "C:\\Users\\roman\\source\\repos\\.net\\Player\\Player.csproj",
+      "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roman\\source\\repos\\.net\\Player\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\roman\\source\\repos\\.net\\card\\card.csproj": {
+              "projectPath": "C:\\Users\\roman\\source\\repos\\.net\\card\\card.csproj"
+            },
+            "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy.csproj": {
+              "projectPath": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MicrosoftVisualStudioQualityToolsUnitTestFramework 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net8.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MicrosoftVisualStudioQualityToolsUnitTestFramework",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

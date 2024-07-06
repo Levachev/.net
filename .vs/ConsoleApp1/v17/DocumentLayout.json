@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\roman\\source\\repos\\.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\controllers\\eloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\controllers\\eloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|c:\\users\\roman\\source\\repos\\.net\\strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC64B2F4-0F46-4F33-83F4-5C035B4DBE31}|strategy\\strategy.csproj|solutionrelative:strategy\\strategy\\myfirstredstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\roman\\source\\repos\\.net\\consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31341BA7-90D6-42A6-874C-FAF24102B1FF}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simulation\\derby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Db",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Db.csproj",
-              "RelativeDocumentMoniker": "Db\\Db.csproj",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Db.csproj",
-              "RelativeToolTip": "Db\\Db.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-04T18:11:29.554Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Elon\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Elon\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-06T12:24:59.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repo.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
-              "RelativeDocumentMoniker": "Db\\Repo.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
-              "RelativeToolTip": "Db\\Repo.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAhwAwAAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "ElonController.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Controllers\\ElonController.cs",
+              "RelativeDocumentMoniker": "Elon\\Controllers\\ElonController.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Controllers\\ElonController.cs",
+              "RelativeToolTip": "Elon\\Controllers\\ElonController.cs",
+              "ViewState": "AQIAAAgAAABgZmZmZmYswBIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T18:12:28.639Z",
+              "WhenOpened": "2024-07-06T12:24:39.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
-              "RelativeDocumentMoniker": "Db\\Context.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
-              "RelativeToolTip": "Db\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T18:21:44.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
-              "RelativeDocumentMoniker": "Db\\Entities.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
-              "RelativeToolTip": "Db\\Entities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:50:54.2Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\appsettings.json",
+              "RelativeDocumentMoniker": "Elon\\appsettings.json",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\appsettings.json",
+              "RelativeToolTip": "Elon\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-06T12:24:35.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowBkAAABtAAAA",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Program.cs",
+              "RelativeDocumentMoniker": "Elon\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Program.cs",
+              "RelativeToolTip": "Elon\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:49:48.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyFirstRedStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\MyFirstRedStrategy.cs",
-              "RelativeDocumentMoniker": "strategy\\strategy\\MyFirstRedStrategy.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\strategy\\strategy\\MyFirstRedStrategy.cs",
-              "RelativeToolTip": "strategy\\strategy\\MyFirstRedStrategy.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIA1wAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:11:52.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Derby.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Derby.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\simulation\\Derby.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\ConsoleApp1\\simulation\\Derby.cs",
-              "RelativeToolTip": "ConsoleApp1\\simulation\\Derby.cs",
-              "ViewState": "AQIAACcAAACgZmZmZmYiwA8AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T17:59:27.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T12:24:32.306Z"
             }
           ]
         }

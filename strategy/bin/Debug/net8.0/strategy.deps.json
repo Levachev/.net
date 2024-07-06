@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v8.0": {
       "strategy/1.0.0": {
         "dependencies": {
-          "MicrosoftVisualStudioQualityToolsUnitTestFramework": "1.0.2",
           "card": "1.0.0"
         },
         "runtime": {

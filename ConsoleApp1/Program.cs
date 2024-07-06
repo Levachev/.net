@@ -3,7 +3,7 @@ using Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using Gods;
 using System;
 
 class Application  {
@@ -28,18 +28,19 @@ class Application  {
                 new Simulator(
                     1000000,
                     serviceProvider.GetRequiredService<Derby>(),
-                    serviceProvider.GetRequiredService<IRepo>()
+                    serviceProvider.GetRequiredService<IRepo>(),
+                    serviceProvider.GetRequiredService<God>()
                     ));
-                
+
                 services.AddTransient<Shuffler>();
-
+                services.AddTransient<God>(serviceProvider =>
+                new God(serviceProvider.GetRequiredService<Shuffler>()));
                 services.AddScoped<IRepo, Repo>();
-
                 services.AddScoped<Derby>(serviceProvider =>
                 new Derby(
                     serviceProvider.GetRequiredService<Shuffler>(),
-                    new Person(StrategyFactory.createForName("firstRed")),
-                    new Person(StrategyFactory.createForName("random"))
+                    new Player(StrategyFactory.createForName("firstRed")),
+                    new Player(StrategyFactory.createForName("random"))
                     ));
             });
     }
