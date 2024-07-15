@@ -1,6 +1,6 @@
-
-
 using System.Net.Http.Headers;
+using deck;
+
 
 public class Derby {
     private Shuffler shuffler;

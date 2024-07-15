@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Gods;
 using System;
+using MassTransit;
 
 class Application  {
     /*static void Main(){
@@ -23,25 +24,40 @@ class Application  {
         return Host.CreateDefaultBuilder(args)
             .ConfigureServices((hostContext, services) =>
             {
+                services.AddMassTransit(x =>
+                {
+                    x.UsingRabbitMq((ctx, cfg) =>
+                    {
+                        cfg.Host("localhost", "/", h =>
+                        {
+                            h.Username("guest");
+                            h.Password("guest");
+                        });
+
+                        cfg.ConfigureEndpoints(ctx);
+                    });
+                });
                 services.AddDbContextFactory<Context>(options => options.UseSqlite($"Data Source=decks.db"));
                 services.AddHostedService<Simulator>(serviceProvider =>
                 new Simulator(
                     1000000,
                     serviceProvider.GetRequiredService<Derby>(),
                     serviceProvider.GetRequiredService<IRepo>(),
-                    serviceProvider.GetRequiredService<God>()
+                    serviceProvider.GetRequiredService<GodRabbit>()
                     ));
 
                 services.AddTransient<Shuffler>();
-                services.AddTransient<God>(serviceProvider =>
-                new God(serviceProvider.GetRequiredService<Shuffler>()));
+                /*services.AddTransient<God>(serviceProvider =>
+                new God(serviceProvider.GetRequiredService<Shuffler>()));*/
+                services.AddTransient<GodRabbit>();
                 services.AddScoped<IRepo, Repo>();
                 services.AddScoped<Derby>(serviceProvider =>
                 new Derby(
                     serviceProvider.GetRequiredService<Shuffler>(),
                     new Player(StrategyFactory.createForName("firstRed")),
                     new Player(StrategyFactory.createForName("random"))
-                    ));
+                 ));
+                
             });
     }
 }

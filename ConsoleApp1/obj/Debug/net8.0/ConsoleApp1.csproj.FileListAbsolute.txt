@@ -127,3 +127,11 @@ C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Player.pdb
 C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Gods.dll
 C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Gods.pdb
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\MassTransit.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\GodRabbit.dll
+C:\Users\roman\source\repos\.net\ConsoleApp1\bin\Debug\net8.0\GodRabbit.pdb

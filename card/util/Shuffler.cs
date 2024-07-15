@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using deck;
 
 public class Shuffler {
     public virtual void shuffleDeck(Deck deck){

@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using deck;
 
 
 namespace Gods
@@ -38,15 +39,16 @@ namespace Gods
 
         private async Task<int> result(Deck deck, int port)
         {
-            Console.WriteLine(createUri(port));
+            //Console.WriteLine(createUri(port));
             using var response = await client.PostAsync(createUri(port),
                 new StringContent(
                     JsonConvert.SerializeObject(deck.deck), Encoding.UTF8, "application/json")
                 );
 
-            if (response.StatusCode != HttpStatusCode.OK)
+            //Console.WriteLine(JsonConvert.SerializeObject(deck.deck));
+
+            if (!response.IsSuccessStatusCode)
             {
-                Console.WriteLine("-1");
                 return -1;
             }
 

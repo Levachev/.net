@@ -39,3 +39,7 @@ C:\Users\roman\source\repos\.net\Mark\obj\Debug\net8.0\refint\Mark.dll
 C:\Users\roman\source\repos\.net\Mark\obj\Debug\net8.0\Mark.pdb
 C:\Users\roman\source\repos\.net\Mark\obj\Debug\net8.0\Mark.genruntimeconfig.cache
 C:\Users\roman\source\repos\.net\Mark\obj\Debug\net8.0\ref\Mark.dll
+C:\Users\roman\source\repos\.net\Mark\bin\Debug\net8.0\MassTransit.dll
+C:\Users\roman\source\repos\.net\Mark\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\roman\source\repos\.net\Mark\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\roman\source\repos\.net\Mark\bin\Debug\net8.0\RabbitMQ.Client.dll

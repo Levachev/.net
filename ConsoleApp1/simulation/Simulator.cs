@@ -3,15 +3,17 @@ using Microsoft.Extensions.Hosting;
 using System.Runtime.InteropServices;
 using Db;
 using Gods;
+using deck;
+
 
 public class Simulator : IHostedService
 {
     private Derby derby;
     private int iterationCapasity;
     private IRepo repo;
-    private God god;
+    private GodRabbit god;
 
-    public Simulator(int iterationCapasity, Derby derby, IRepo repo, God god)
+    public Simulator(int iterationCapasity, Derby derby, IRepo repo, GodRabbit god)
     {
         this.iterationCapasity = iterationCapasity;
         this.derby = derby;

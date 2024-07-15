@@ -14,15 +14,17 @@ namespace Mark.Controllers
             this.strategy = strategy;
         }
 
-        [HttpGet("test")]
-        public IActionResult test()
+        [HttpGet("color")]
+        public IActionResult getColor()
         {
-            return Ok("success");
+            return Ok(Util.deck[Util.pickNumber].color.ToString());
         }
 
-        [HttpPost(Name = "result")]
+        [HttpPost("result")]
         public IActionResult Get([FromBody] List<Card> cards)
         {
+            System.Diagnostics.Debug.WriteLine("get request");
+
             return Ok(strategy.Pick(cards.ToArray()));
         }
     }

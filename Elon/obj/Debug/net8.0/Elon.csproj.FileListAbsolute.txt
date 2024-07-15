@@ -39,3 +39,7 @@ C:\Users\roman\source\repos\.net\Elon\obj\Debug\net8.0\refint\Elon.dll
 C:\Users\roman\source\repos\.net\Elon\obj\Debug\net8.0\Elon.pdb
 C:\Users\roman\source\repos\.net\Elon\obj\Debug\net8.0\Elon.genruntimeconfig.cache
 C:\Users\roman\source\repos\.net\Elon\obj\Debug\net8.0\ref\Elon.dll
+C:\Users\roman\source\repos\.net\Elon\bin\Debug\net8.0\MassTransit.dll
+C:\Users\roman\source\repos\.net\Elon\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\roman\source\repos\.net\Elon\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\roman\source\repos\.net\Elon\bin\Debug\net8.0\RabbitMQ.Client.dll

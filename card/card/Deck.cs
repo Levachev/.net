@@ -1,41 +1,52 @@
 
-
-public class Deck {
-    public Card[] deck;
-
-    public Deck()
+namespace deck
+{
+    public class Deck
     {
-        deck = new Card[36];
-        GenerateDeck();
-    }
+        public Card[] deck;
 
-    public Deck(Card[] inputDeck){
-        deck = inputDeck;
-    }
+        public Deck()
+        {
+            deck = new Card[36];
+            GenerateDeck();
+        }
 
-    public Card getCard(int position){
-        return deck[position];
-    }
+        public Deck(Card[] inputDeck)
+        {
+            deck = inputDeck;
+        }
 
-    public int getSize(){
-        return deck.Length;
-    }
+        public Card getCard(int position)
+        {
+            return deck[position];
+        }
 
-    public void swap(int k, int n){
-        Card value = deck[k];  
-        deck[k] = deck[n];  
-        deck[n] = value;  
-    }
+        public int getSize()
+        {
+            return deck.Length;
+        }
 
-    private void GenerateDeck(){
-        for (var i = 0; i < 36; i++){
-            if (i < 18){
-                deck[i] = new Card(i + 1, CardColor.Red);
-            }
-            else{
-                deck[i] = new Card(i + 1, CardColor.Black);
+        public void swap(int k, int n)
+        {
+            Card value = deck[k];
+            deck[k] = deck[n];
+            deck[n] = value;
+        }
+
+        private void GenerateDeck()
+        {
+            for (var i = 0; i < 36; i++)
+            {
+                if (i < 18)
+                {
+                    deck[i] = new Card(i + 1, CardColor.Red);
+                }
+                else
+                {
+                    deck[i] = new Card(i + 1, CardColor.Black);
+                }
             }
         }
-    }
 
+    }
 }

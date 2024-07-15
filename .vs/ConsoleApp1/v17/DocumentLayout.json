@@ -7,16 +7,52 @@
       "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\controllers\\eloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0E1D567F-4FC2-4732-9F9A-338DA548B7C6}|GodRebbit\\GodRabbit.csproj|c:\\users\\roman\\source\\repos\\.net\\godrebbit\\godrabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1D567F-4FC2-4732-9F9A-338DA548B7C6}|GodRebbit\\GodRabbit.csproj|solutionrelative:godrebbit\\godrabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|c:\\users\\roman\\source\\repos\\.net\\mark\\controllers\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|solutionrelative:mark\\controllers\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|c:\\users\\roman\\source\\repos\\.net\\db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC48DD-0353-444E-BA1E-4462D5FA1A48}|Db\\Db.csproj|solutionrelative:db\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|c:\\users\\roman\\source\\repos\\.net\\card\\card\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEFB6C42-9737-447E-A6A1-FED8DD96F15D}|card\\card.csproj|solutionrelative:card\\card\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\consumer\\elonconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\consumer\\elonconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|c:\\users\\roman\\source\\repos\\.net\\mark\\consumer\\markconsumerelonpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|solutionrelative:mark\\consumer\\markconsumerelonpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\consumer\\elonconsumermarkpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\consumer\\elonconsumermarkpick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|c:\\users\\roman\\source\\repos\\.net\\mark\\consumer\\markconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|solutionrelative:mark\\consumer\\markconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|c:\\users\\roman\\source\\repos\\.net\\mark\\mark.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{399709CB-9B0B-4F75-9160-6880C8D83A43}|Mark\\Mark.csproj|solutionrelative:mark\\mark.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|c:\\users\\roman\\source\\repos\\.net\\elon\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4209856E-6A59-4540-94AB-EA8A13B13BD8}|Elon\\Elon.csproj|solutionrelative:elon\\util\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +62,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
+              "RelativeDocumentMoniker": "Db\\Repo.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Repo.cs",
+              "RelativeToolTip": "Db\\Repo.cs",
+              "ViewState": "AQIAABYAAADAzMzMzMwUwBwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:13:24.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
+              "RelativeDocumentMoniker": "Db\\Entities.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Entities.cs",
+              "RelativeToolTip": "Db\\Entities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:13:18.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
+              "RelativeDocumentMoniker": "Db\\Context.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Db\\Context.cs",
+              "RelativeToolTip": "Db\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:13:15.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Deck.cs",
+              "RelativeDocumentMoniker": "card\\card\\Deck.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\card\\card\\Deck.cs",
+              "RelativeToolTip": "card\\card\\Deck.cs",
+              "ViewState": "AQIAABIAAAAAz8zMzMz8vwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T15:12:57.909Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Elon\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Elon\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-06T12:24:59.67Z"
+              "Title": "GodRabbit.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\GodRebbit\\GodRabbit.cs",
+              "RelativeDocumentMoniker": "GodRebbit\\GodRabbit.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\GodRebbit\\GodRabbit.cs",
+              "RelativeToolTip": "GodRebbit\\GodRabbit.cs",
+              "ViewState": "AQIAADgAAAAAmZmZmZkdwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:58:21.366Z"
             },
             {
               "$type": "Document",
@@ -48,34 +132,94 @@
               "RelativeDocumentMoniker": "Elon\\Controllers\\ElonController.cs",
               "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Controllers\\ElonController.cs",
               "RelativeToolTip": "Elon\\Controllers\\ElonController.cs",
-              "ViewState": "AQIAAAgAAABgZmZmZmYswBIAAAAeAAAA",
+              "ViewState": "AQIAAAsAAADAzMzMzMwmwBIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T12:24:39.205Z",
+              "WhenOpened": "2024-07-15T14:57:55.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\appsettings.json",
-              "RelativeDocumentMoniker": "Elon\\appsettings.json",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\appsettings.json",
-              "RelativeToolTip": "Elon\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-06T12:24:35.67Z"
+              "DocumentIndex": 3,
+              "Title": "MarkController.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\Controllers\\MarkController.cs",
+              "RelativeDocumentMoniker": "Mark\\Controllers\\MarkController.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\Controllers\\MarkController.cs",
+              "RelativeToolTip": "Mark\\Controllers\\MarkController.cs",
+              "ViewState": "AQIAAA4AAADAzMzMzMwmwBMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:57:09.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Program.cs",
-              "RelativeDocumentMoniker": "Elon\\Program.cs",
-              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\Program.cs",
-              "RelativeToolTip": "Elon\\Program.cs",
+              "DocumentIndex": 8,
+              "Title": "MarkConsumerElonPick.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\consumer\\MarkConsumerElonPick.cs",
+              "RelativeDocumentMoniker": "Mark\\consumer\\MarkConsumerElonPick.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\consumer\\MarkConsumerElonPick.cs",
+              "RelativeToolTip": "Mark\\consumer\\MarkConsumerElonPick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:56:00.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MarkConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\consumer\\MarkConsumer.cs",
+              "RelativeDocumentMoniker": "Mark\\consumer\\MarkConsumer.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\consumer\\MarkConsumer.cs",
+              "RelativeToolTip": "Mark\\consumer\\MarkConsumer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:55:44.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ElonConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\consumer\\ElonConsumer.cs",
+              "RelativeDocumentMoniker": "Elon\\consumer\\ElonConsumer.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\consumer\\ElonConsumer.cs",
+              "RelativeToolTip": "Elon\\consumer\\ElonConsumer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:54:57.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\util\\Util.cs",
+              "RelativeDocumentMoniker": "Elon\\util\\Util.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\util\\Util.cs",
+              "RelativeToolTip": "Elon\\util\\Util.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T12:24:32.306Z"
+              "WhenOpened": "2024-07-15T14:51:31.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElonConsumerMarkPick.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\consumer\\ElonConsumerMarkPick.cs",
+              "RelativeDocumentMoniker": "Elon\\consumer\\ElonConsumerMarkPick.cs",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Elon\\consumer\\ElonConsumerMarkPick.cs",
+              "RelativeToolTip": "Elon\\consumer\\ElonConsumerMarkPick.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:47:41.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Mark.csproj",
+              "DocumentMoniker": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\Mark.csproj",
+              "RelativeDocumentMoniker": "Mark\\Mark.csproj",
+              "ToolTip": "C:\\Users\\roman\\source\\repos\\.net\\Mark\\Mark.csproj",
+              "RelativeToolTip": "Mark\\Mark.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T13:33:51.978Z"
             }
           ]
         }
