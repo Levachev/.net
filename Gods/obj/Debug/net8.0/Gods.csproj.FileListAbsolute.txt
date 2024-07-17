@@ -4,9 +4,6 @@ C:\Users\roman\source\repos\.net\Gods\obj\Debug\net8.0\Gods.AssemblyInfoInputs.c
 C:\Users\roman\source\repos\.net\Gods\obj\Debug\net8.0\Gods.AssemblyInfo.cs
 C:\Users\roman\source\repos\.net\Gods\obj\Debug\net8.0\Gods.csproj.CoreCompileInputs.cache
 C:\Users\roman\source\repos\.net\Gods\obj\Debug\net8.0\Gods.sourcelink.json
-C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\card.deps.json
-C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\card.runtimeconfig.json
-C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\card.exe
 C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\Gods.deps.json
 C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\Gods.dll
 C:\Users\roman\source\repos\.net\Gods\bin\Debug\net8.0\Gods.pdb

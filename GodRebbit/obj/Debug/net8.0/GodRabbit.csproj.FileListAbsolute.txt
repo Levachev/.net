@@ -4,9 +4,6 @@ C:\Users\roman\source\repos\.net\GodRebbit\obj\Debug\net8.0\GodRabbit.AssemblyIn
 C:\Users\roman\source\repos\.net\GodRebbit\obj\Debug\net8.0\GodRabbit.AssemblyInfo.cs
 C:\Users\roman\source\repos\.net\GodRebbit\obj\Debug\net8.0\GodRabbit.csproj.CoreCompileInputs.cache
 C:\Users\roman\source\repos\.net\GodRebbit\obj\Debug\net8.0\GodRabbit.sourcelink.json
-C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\card.deps.json
-C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\card.runtimeconfig.json
-C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\card.exe
 C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\GodRabbit.deps.json
 C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\GodRabbit.dll
 C:\Users\roman\source\repos\.net\GodRebbit\bin\Debug\net8.0\GodRabbit.pdb

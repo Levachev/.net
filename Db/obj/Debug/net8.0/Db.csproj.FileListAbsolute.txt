@@ -1,6 +1,3 @@
-C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\card.deps.json
-C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\card.runtimeconfig.json
-C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\card.exe
 C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\Db.deps.json
 C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\Db.dll
 C:\Users\roman\source\repos\.net\Db\bin\Debug\net8.0\Db.pdb

@@ -1,8 +1,5 @@
 C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\CoverletSourceRootsMapping_AppTests
 C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\testhost.dll
-C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\card.deps.json
-C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\card.runtimeconfig.json
-C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\card.exe
 C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\testhost.exe
 C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\.playwright\node\win32_x64\node.exe
 C:\Users\roman\Source\Repos\.net\AppTests\bin\Debug\net8.0\.playwright\node\win32_x64\playwright.cmd
@@ -488,3 +485,11 @@ C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Player.dll
 C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Player.pdb
 C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Gods.dll
 C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Gods.pdb
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\MassTransit.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\GodRabbit.dll
+C:\Users\roman\source\repos\.net\AppTests\bin\Debug\net8.0\GodRabbit.pdb

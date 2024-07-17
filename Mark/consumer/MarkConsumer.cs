@@ -1,24 +1,23 @@
 ﻿
-using System.Collections.Concurrent;
 using MassTransit;
-using Microsoft.AspNetCore.SignalR.Protocol;
-using deck;
+using cardPick;
+using deckMessage;
 
 
-public class MarkConsumer : IConsumer<Deck>
+public class MarkConsumer : IConsumer<DeckMessage>
 {
-    public Task Consume(ConsumeContext<Deck> context)
+    public Task Consume(ConsumeContext<DeckMessage> context)
     {
-        System.Diagnostics.Debug.WriteLine("in consume method");
-        Console.WriteLine("in console consume");
         var deck = context.Message.deck;
 
-        Util.deck = deck;
+        Util.deck = deck.deck;
 
         ICardPickStrategy strategy = new RandomStrategy();
+        int pick = strategy.Pick(deck.deck);
+        Console.WriteLine("mark pick " + pick);
 
-        context.Publish(
-            new CardPick(strategy.Pick(deck))
+        context.Publish<CardPick>(
+            new CardPick(pick, "elon")
             );
 
         return Task.CompletedTask;

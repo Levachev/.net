@@ -16,7 +16,13 @@ namespace Elon.Controllers
         [HttpGet("color")]
         public IActionResult getColor()
         {
-            return Ok(Util.deck[Util.pickNumber].color.ToString());
+            while (!Util.isReady)
+            {
+                Thread.Sleep(100);
+            }
+            var ret = Util.deck[Util.pickNumber].color.ToString();
+            Util.isReady = false;
+            return Ok(ret);
         }
 
         [HttpPost("result")]

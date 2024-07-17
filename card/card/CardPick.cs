@@ -1,12 +1,18 @@
 using System;
 
-public class CardPick {
-    public int number { get; set; }
-
-    public CardPick(int num)
+namespace cardPick
+{
+    public class CardPick
     {
-        number = num;
-    }
+        public int number { get; set; }
+        public string name { get; set; }
 
-    public CardPick() {}
+        public CardPick(int number, string name)
+        {
+            this.name = name;
+            this.number = number;
+        }
+
+        public CardPick() { }
+    }
 }

@@ -1,23 +1,24 @@
 ﻿
 using MassTransit;
-using deck;
+using deckMessage;
+using cardPick;
 
 
-public class ElonConsumer : IConsumer<Deck>
+public class ElonConsumer : IConsumer<DeckMessage>
 {
-    public Task Consume(ConsumeContext<Deck> context)
+    public Task Consume(ConsumeContext<DeckMessage> context)
     {
-        System.Diagnostics.Debug.WriteLine("in consume method");
-        Console.WriteLine("in console consume");
 
         var deck = context.Message.deck;
 
-        Util.deck = deck;
+        Util.deck = deck.deck;
 
         ICardPickStrategy strategy = new MyFirstRedStrategy();
 
-        context.Publish(
-            new CardPick(strategy.Pick(deck))
+        int pick = strategy.Pick(deck.deck);
+        Console.WriteLine("elon pick " + pick);
+        context.Publish<CardPick>(
+            new CardPick(pick, "mark")
             );
 
         return Task.CompletedTask;

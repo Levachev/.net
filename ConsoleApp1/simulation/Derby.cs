@@ -6,7 +6,6 @@ public class Derby {
     private Shuffler shuffler;
     private Player person1;
     private Player person2;
-    private Deck deck = new Deck();
     public Derby(Shuffler shuffler, Player person1, Player person2){
         this.shuffler = shuffler;
         this.person1 = person1;

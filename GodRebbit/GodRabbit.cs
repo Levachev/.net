@@ -1,7 +1,6 @@
 ﻿using MassTransit;
-using System.Text;
-using Newtonsoft.Json;
 using deck;
+using deckMessage;
 
 
 namespace Gods
@@ -13,18 +12,24 @@ namespace Gods
         private HttpClient client = new HttpClient();
         private Shuffler shuffler;
         private IBusControl busControl;
+        private ISendEndpoint endpointElon;
+        private ISendEndpoint endpointMark;
+
 
         public GodRabbit(Shuffler shuffler)
         {
             this.shuffler = shuffler;
-            busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
+            busControl = Bus.Factory.CreateUsingRabbitMq(async cfg =>
             {
                 cfg.Host("localhost", "/", h =>
                 {
                     h.Username("guest");
                     h.Password("guest");
-                });
+                }); 
             });
+            busControl.Start();
+            endpointElon = busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/elonQueue")).Result;
+            endpointMark = busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/markQueue")).Result;
         }
 
         public async Task<bool> singleExperiment(Deck deck)
@@ -32,25 +37,24 @@ namespace Gods
             shuffler.shuffleDeck(deck);
 
             (Deck elonDeck, Deck markDeck) = separeteFullDaeck(deck);
-            sendDeckElon(elonDeck);
-            sendDeckMark(markDeck);
 
+            await sendDeckElon(elonDeck);
+            await sendDeckMark(markDeck);
+            
             CardColor elonColor = await getColor(elonPort);
             CardColor markColor = await getColor(markPort);
-
+            
             return elonColor == markColor;
         }
 
-        public async void sendDeckElon(Deck deck)
+        public async Task sendDeckElon(Deck deck)
         {
-            var endpoint = await busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/elonQueue"));
-            await endpoint.Send<Deck>(deck);
+            await endpointElon.Send<DeckMessage>(new{deck});
         }
 
-        public async void sendDeckMark(Deck deck)
+        public async Task sendDeckMark(Deck deck)
         {
-            var endpoint = await busControl.GetSendEndpoint(new Uri("rabbitmq://localhost/markQueue"));
-            await endpoint.Send<Deck>(deck);
+            await endpointMark.Send<DeckMessage>(new{deck});
         }
 
         private async Task<CardColor> getColor(int port)

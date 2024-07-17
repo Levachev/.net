@@ -19,9 +19,6 @@ builder.Services.AddMassTransit(registrConfigurator =>
         cfg.ReceiveEndpoint("markQueue", ep =>
         {
             ep.Consumer<MarkConsumer>();
-        });
-        cfg.ReceiveEndpoint("elonQueue", ep =>
-        {
             ep.Consumer<MarkConsumerElonPick>();
         });
     });

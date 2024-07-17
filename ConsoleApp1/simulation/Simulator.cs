@@ -1,6 +1,5 @@
 
 using Microsoft.Extensions.Hosting;
-using System.Runtime.InteropServices;
 using Db;
 using Gods;
 using deck;
@@ -47,7 +46,6 @@ public class Simulator : IHostedService
     public async Task<int> simulateWeb()
     {
         int succesCounter = 0;
-
         var decks = repo.getDecks();
         foreach (Deck deck in decks)
         {
@@ -63,7 +61,7 @@ public class Simulator : IHostedService
 
     public Task StartAsync(CancellationToken cancellationToken)
     {
-        for (int i=0;i<10;i++){
+        for (int i=0;i<100;i++){
             repo.insertDeck(new Deck());
         }
 

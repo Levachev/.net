@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bb071d3bb337354462ceb1f62040dadca796ecc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f682b0e409b7d1121ed4b5914837ffbd67617ef4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

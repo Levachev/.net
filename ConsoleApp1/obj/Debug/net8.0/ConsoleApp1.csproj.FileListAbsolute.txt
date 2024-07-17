@@ -29,9 +29,6 @@ C:\Users\roman\Source\Repos\.net\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.AssemblyReference.cache
-C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\card.deps.json
-C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\card.runtimeconfig.json
-C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\card.exe
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\card.dll
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\strategy.dll
 C:\Users\roman\Source\Repos\.net\ConsoleApp1\bin\Debug\net8.0\strategy.pdb
